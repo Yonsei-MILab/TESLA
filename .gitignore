@@ -1,0 +1,25 @@
+# Ignore large folders
+data/
+ckpts/
+logs/
+outputs/
+
+# ckpts 아래 모든 pt 무시
+echo "ckpts/**/*.pt" >> .gitignore  
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# VSCode settings (if any)
+.vscode/
+
+# ipynb 파일 무시
+*.ipynb
+
+# txt 파일 무시
+*.txt
